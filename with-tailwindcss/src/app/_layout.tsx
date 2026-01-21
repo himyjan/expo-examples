@@ -1,10 +1,9 @@
 import "../global.css";
 import { Slot } from "expo-router";
 
-import { Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-import { Image, Link } from "@/tw";
+import { Text, View, Image, Link } from "@/tw";
 
 export default function Layout() {
   return (
